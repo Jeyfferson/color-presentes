@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Presentes | Presentes Personalizados & Decoração de Natal</title>
+    <!-- Tailwind CSS CDN para estilização moderna e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-100 selection:text-amber-900">
+
+    <!-- BARRA DE AVISO TOPO -->
+    <div class="bg-amber-500 text-slate-900 text-xs md:text-sm font-semibold py-2 px-4 text-center">
+        🎄 Edição Limitada de Natal 2025/2026 — Peça já o seu kit personalizado via WhatsApp!
+    </div>
+
+    <!-- CABEÇALHO / HEADER -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <!-- Ícone Prisma Symbol simulado -->
+                <div class="w-9 h-9 bg-gradient-to-tr from-cyan-500 via-fuchsia-500 to-amber-400 rounded-lg shadow-md flex items-center justify-center text-white font-black text-lg">
+                    C
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight text-slate-900 block leading-none">Color Presentes</span>
+                    <span class="text-[10px] text-slate-500 font-medium tracking-wide uppercase">Sublimação • Laser • 3D</span>
+                </div>
+            </div>
+
+            <a href="#catalogo" class="text-sm font-semibold text-slate-700 hover:text-amber-600 transition">
+                Ver Catálogo
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (APRESENTAÇÃO) -->
+    <section class="relative bg-gradient-to-b from-slate-900 to-slate-800 text-white py-16 md:py-24 px-4 overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <span class="inline-block bg-amber-400/10 text-amber-300 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full border border-amber-400/20 mb-4">
+                Coleção de Natal 2025/2026
+            </span>
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight leading-tight text-white mb-4">
+                Transformando momentos em <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-200">presentes inesquecíveis.</span>
+            </h1>
+            <p class="text-slate-300 text-base md:text-lg max-w-2xl mx-auto mb-8 font-light">
+                Kits exclusivos feitos com tecnologia de Impressão 3D, Corte a Laser em MDF e Cerâmica Sublimada de alta definição.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#catalogo" class="w-full sm:w-auto bg-amber-400 hover:bg-amber-300 text-slate-950 font-bold py-3.5 px-8 rounded-xl shadow-lg transition duration-200">
+                    Explorar Kits de Natal
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOGO DE PRODUTOS -->
+    <section id="catalogo" class="max-w-6xl mx-auto py-16 px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold text-slate-900">Nossos Kits Campeões</h2>
+            <p class="text-slate-600 text-sm md:text-base mt-2">Escolha o seu kit ideal e envie a personalização pelo WhatsApp</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+            <!-- CARD KIT 1 -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <div class="relative bg-slate-100 h-64 md:h-72 overflow-hidden">
+                        <img src="assets/kit-familia.jpg" alt="Kit Natal em Família" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1543589077-47d81606c1bf?auto=format&fit=crop&w=800&q=80'">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                            Mais Vendido
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900">Kit Natal em Família Premium</h3>
+                        <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                            Acompanha Árvore de Nomes em Impressão 3D + Caneca de Cerâmica Sublimada + 8 Pingentes em MDF Cortados a Laser.
+                        </p>
+                        
+                        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs text-slate-500">
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">🌲 Árvore 3D</span>
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">☕ Caneca Sublimada</span>
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">🏷️ 8 Pingentes MDF</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 pt-0">
+                    <button onclick="comprarWhatsApp('Kit Natal em Família Premium (Árvore 3D + Caneca + 8 Pingentes MDF)')" 
+                            class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow transition duration-200 flex items-center justify-center gap-2">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>Comprar via WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- CARD KIT 2 -->
+            <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition duration-300 overflow-hidden flex flex-col justify-between">
+                <div>
+                    <div class="relative bg-slate-100 h-64 md:h-72 overflow-hidden">
+                        <img src="assets/kit-minimalista.jpg" alt="Kit Natal Minimalista" class="w-full h-full object-cover" onerror="this.src='https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=800&q=80'">
+                        <span class="absolute top-4 left-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full shadow">
+                            Estilo Scandi
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-slate-900">Kit Decoração Natal Minimalista</h3>
+                        <p class="text-slate-600 text-sm mt-2 leading-relaxed">
+                            Duo de Árvores Minimalistas em Impressão 3D (20cm e 15cm) + Azulejo de Cerâmica Sublimado (10x10cm) + Suporte em MDF Laser.
+                        </p>
+
+                        <div class="mt-4 pt-4 border-t border-slate-100 flex flex-wrap gap-2 text-xs text-slate-500">
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">🌲 Duo Árvores 3D</span>
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">🖼️ Azulejo 10x10cm</span>
+                            <span class="bg-slate-100 px-2.5 py-1 rounded-md">🪵 Suporte MDF Laser</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 pt-0">
+                    <button onclick="comprarWhatsApp('Kit Decoração Natal Minimalista (Duo Árvores 3D + Azulejo 10x10 + Suporte MDF)')" 
+                            class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl shadow transition duration-200 flex items-center justify-center gap-2">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>Comprar via WhatsApp</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RODAPÉ / FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 text-center text-sm">
+        <div class="max-w-6xl mx-auto px-4">
+            <p class="text-white font-bold text-base mb-1">Color Presentes</p>
+            <p class="text-xs text-slate-500 mb-4">Curitiba - PR • Atendimento para todo o Brasil</p>
+            <p>© 2026 Color Presentes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DO WHATSAPP -->
+    <script>
+        // Inicializa ícones Lucide
+        lucide.createIcons();
+
+        function comprarWhatsApp(nomeProduto) {
+            // INSIRA O NÚMERO DO SEU WHATSAPP AQUI (Com 55 + DDD + Número)
+            const numeroWhatsApp = "5541999999999"; 
+            
+            // Mensagem formatada
+            const mensagem = `Olá, Color Presentes! 🎄\n\nTenho interesse em comprar o *${nomeProduto}*.\n\nComo faço para combinar os detalhes de personalização e envio?`;
+            
+            // Monta a URL oficial do WhatsApp
+            const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+            
+            // Abre no navegador ou no app do WhatsApp do cliente
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
